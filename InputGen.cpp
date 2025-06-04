@@ -14,11 +14,5 @@ ll rand(ll l, ll r) {
 
 int main() {
     cin.tie(nullptr)->sync_with_stdio(false);
-    int n = rand(1, 1e3);
-    cout << n << "\n";
-    for (int i = 1; i <= n; ++i) {
-        ll d = rand(1, 1e9);
-        ll r = rand(1, 1e9);
-        cout << d << " " << r << "\n";
-    }
+    // Randomize output here
 }
