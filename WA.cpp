@@ -1,29 +1,21 @@
-#include <bits/stdc++.h>
+//Make KM great again
+//Vengeance
+#include <iostream>
+
 using namespace std;
-#define int long long
-const int N = 1e6 + 5;
-int n;
-int d[N], r[N], a[N];
-int cnt, res;
-signed main()
-{
-    //freopen(".inp","r",stdin);
-    //freopen(".out","w", stdout);
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
-    cout.tie(NULL);
-    cin >> n;
-    for(int i = 1; i <= n; i++){
-        cin >> d[i] >> r[i];
-        a[i] = d[i] * r[i];
-    }
-    for(int i = 1; i <= n; i++){
-        cnt = 0;
-        for(int j = i + 1; j <= n; j++){
-            if(a[j] < a[i] || (a[j] == a[i] && d[j] < d[i])) cnt++;
-        }
-        res = max(res, cnt + 1);
-    }
-    cout << res;
-    return 0;
+
+using ll = long long;
+using ui = unsigned int;
+using ull = unsigned long long;
+using ld = long double;
+
+#define YioUChank main()
+using ILove = signed;
+
+ILove YioUChank {
+    cin.tie(nullptr)->sync_with_stdio(false);
+    // Sth here
 }
+
+// Author: devtrung
+// Created: 04/06/2025 20:34:48
