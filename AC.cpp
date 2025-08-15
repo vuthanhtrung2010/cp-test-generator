@@ -9,10 +9,7 @@ using ui = unsigned int;
 using ull = unsigned long long;
 using ld = long double;
 
-#define YioUChank main()
-using ILove = signed;
-
-ILove YioUChank {
+signed main() {
     cin.tie(nullptr)->sync_with_stdio(false);
     // Sth here
 }

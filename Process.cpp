@@ -112,7 +112,7 @@ void CleanUp() {
         cout << YELLOW << "Can't delete build and input files" << RESET << '\n';
 }
 
-int main() {
+signed main() {
     cout << BLUE << "Enter number of test cases: " << RESET;
     cin >> tests;
 

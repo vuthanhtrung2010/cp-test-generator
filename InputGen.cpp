@@ -12,7 +12,7 @@ ll rand(ll l, ll r) {
     return Rand() % (r - l + 1) + l;
 }
 
-int main() {
+signed main() {
     cin.tie(nullptr)->sync_with_stdio(false);
     // Randomize output here
 }
